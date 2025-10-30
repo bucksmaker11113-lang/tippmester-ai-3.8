@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: tippmester-ai-3-8
-    env: python
-    plan: free
-    region: oregon
-    buildCommand: pip install -r backend/requirements.txt
-    startCommand: gunicorn backend.app:app
