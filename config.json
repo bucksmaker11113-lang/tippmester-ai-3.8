@@ -1,0 +1,21 @@
+{
+  "EMAIL_RECEIVER": "bucksmaker11111@gmail.com",
+  "DATA_PATH": "data/",
+  "REPORT_PATH": "data/reports/",
+  "CACHE_PATH": "data/cache/",
+  "AI_REFRESH_MINUTES": 5,
+  "LOG_LEVEL": "INFO",
+  "APP_MODE": "production",
+  "VERSION": "4.5.1",
+
+  "AUTO_REPORT_ENABLED": true,
+  "REPORT_HOUR": 22,
+
+  "EXTRA_SETTINGS": {
+    "MAX_LOG_ENTRIES": 500,
+    "ALERT_THRESHOLD": 0.8,
+    "DEFAULT_LANGUAGE": "hu",
+    "FUSION_MODE": "ensemble",
+    "BACKUP_ENABLED": true
+  }
+}

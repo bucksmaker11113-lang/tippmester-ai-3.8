@@ -1,0 +1,45 @@
+# === Alap webkiszolgáló ===
+fastapi==0.115.2
+uvicorn==0.30.1
+gunicorn==22.0.0
+
+# === Adatkezelés és elemzés ===
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.5.1
+
+# === HTTP / API kommunikáció ===
+requests==2.31.0
+httpx==0.27.0
+aiofiles==23.2.1
+
+# === Környezeti beállítások ===
+python-dotenv==1.0.1
+email-validator==2.1.1
+
+# === Sablonok és riport motor ===
+jinja2==3.1.3
+matplotlib==3.8.3
+
+# === Adatbázis támogatás (későbbi verziókhoz előkészítve) ===
+sqlalchemy==2.0.31
+
+# === JSON és struktúrált fájlkezelés ===
+orjson==3.10.6
+
+# === Naplózás és monitorozás ===
+loguru==0.7.2
+
+# === Machine Learning bővítések (bias, sentiment, ensemble AI) ===
+scipy==1.13.1
+joblib==1.4.2
+
+# === E-mail és értesítések ===
+smtplib-client==0.1.0
+
+# === Időzítés és automatizálás ===
+schedule==1.2.1
+
+# === Opcionális, fejlesztéshez ajánlott ===
+tqdm==4.66.4
+colorama==0.4.6
